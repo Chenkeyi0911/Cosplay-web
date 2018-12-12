@@ -1,0 +1,142 @@
+#container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+#header {
+	background-image:url(13.jpg);
+	height:87px; 
+	position:relative;
+	margin:0px;
+}
+#header ul {
+	position:absolute;
+	right:0px; 
+	bottom:0px;
+	margin:0px;
+	padding: 0px;
+	background-color:#f0f3ff; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+#header li {
+	list-style:none;
+	display:inline;
+}
+#header ul li a { 
+	height:20px; 
+	margin:0px; 
+	padding: 0px 10px 0px 10px;
+	border-left: #999999 1px solid; 
+	border-top: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+	color:#333333;
+	text-decoration:none; 
+	font-size:14px;
+}
+
+#header2 {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: #C5D2FE;
+	clear: left;
+}
+#header2 ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bolder;
+	color: #D2D620;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 25%;
+	transition: all 0.3s linear;
+}
+#header2 ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+#article {
+	background-color: #FFFFFF;
+	width: 60%;
+	float: left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #343434;
+	padding-bottom: 15px;
+}
+
+#photo {
+	width: 40%;
+	float: left;
+	background-color: #F6F6F6;
+	
+}
+#placeholder {
+	/* [disabled]max-width: 400px;
+*/
+	/* [disabled]max-height: 200px;
+*/
+	width: 100%;
+	padding-top: 30px;
+	/* [disabled]padding-left: 19px;
+*/
+	padding-bottom: 30px;
+	height: 100%;
+}
+
+#table {
+	width: 600px ;
+	height: 100px;
+}
+
+#footer {
+	position:fixed; 
+	bottom:0px; 
+	width:90%; 
+	height:70px; 
+	clear:both;
+	background-image:url(15.gif);
+	background-color:#fff; 
+	background-repeat:repeat-x; 
+	text-align:center;
+	color:#666666;
+	font-size:0.7em;
+}
+#footer p {
+	margin-top:0.5em; 
+}
+
+
+
+@charset "utf-8";
+body {
+	background: #E0DEDE
+}
+
+h1{
+	text-align: center;
+	font-style: italic
+	
+}
+
+h3{
+	text-align: center
+}
+#footer {
+}
